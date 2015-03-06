@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion_Comercial_v1.0", "Aplicacion_Comercial_v1.0\Aplicacion_Comercial_v1.0.csproj", "{8D2647BA-E0D4-4A29-991C-2BFDD6AE90CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADAplicacionComercial", "CADAplicacionComercial\CADAplicacionComercial.csproj", "{8A1E584E-F795-4119-A1DA-EF25BDF5DEF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D2647BA-E0D4-4A29-991C-2BFDD6AE90CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2647BA-E0D4-4A29-991C-2BFDD6AE90CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2647BA-E0D4-4A29-991C-2BFDD6AE90CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2647BA-E0D4-4A29-991C-2BFDD6AE90CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1E584E-F795-4119-A1DA-EF25BDF5DEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1E584E-F795-4119-A1DA-EF25BDF5DEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1E584E-F795-4119-A1DA-EF25BDF5DEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1E584E-F795-4119-A1DA-EF25BDF5DEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

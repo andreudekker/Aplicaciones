@@ -1,0 +1,6 @@
+c:\users\andreu\documents\visual studio 2013\Projects\Aplicacion_Comercial_v1.0\CADAplicacionComercial\bin\Debug\CADAplicacionComercial.dll.config
+c:\users\andreu\documents\visual studio 2013\Projects\Aplicacion_Comercial_v1.0\CADAplicacionComercial\bin\Debug\CADAplicacionComercial.dll
+c:\users\andreu\documents\visual studio 2013\Projects\Aplicacion_Comercial_v1.0\CADAplicacionComercial\bin\Debug\CADAplicacionComercial.pdb
+c:\users\andreu\documents\visual studio 2013\Projects\Aplicacion_Comercial_v1.0\CADAplicacionComercial\obj\Debug\CADAplicacionComercial.dll
+c:\users\andreu\documents\visual studio 2013\Projects\Aplicacion_Comercial_v1.0\CADAplicacionComercial\obj\Debug\CADAplicacionComercial.pdb
+C:\Users\Andreu\documents\visual studio 2013\Projects\Aplicacion_Comercial_v1.0\CADAplicacionComercial\obj\Debug\CADAplicacionComercial.csprojResolveAssemblyReference.cache

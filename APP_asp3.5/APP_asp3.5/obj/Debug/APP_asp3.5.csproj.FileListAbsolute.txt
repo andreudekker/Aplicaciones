@@ -1,0 +1,6 @@
+c:\users\andreu\documents\visual studio 2013\Projects\APP_asp3.5\APP_asp3.5\bin\APP_asp3.5.dll.config
+c:\users\andreu\documents\visual studio 2013\Projects\APP_asp3.5\APP_asp3.5\bin\APP_asp3.5.dll
+c:\users\andreu\documents\visual studio 2013\Projects\APP_asp3.5\APP_asp3.5\bin\APP_asp3.5.pdb
+c:\users\andreu\documents\visual studio 2013\Projects\APP_asp3.5\APP_asp3.5\obj\Debug\APP_asp3.5.csprojResolveAssemblyReference.cache
+c:\users\andreu\documents\visual studio 2013\Projects\APP_asp3.5\APP_asp3.5\obj\Debug\APP_asp3.5.dll
+c:\users\andreu\documents\visual studio 2013\Projects\APP_asp3.5\APP_asp3.5\obj\Debug\APP_asp3.5.pdb

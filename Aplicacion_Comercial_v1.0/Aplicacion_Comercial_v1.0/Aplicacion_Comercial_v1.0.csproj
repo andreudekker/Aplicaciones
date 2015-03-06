@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D2647BA-E0D4-4A29-991C-2BFDD6AE90CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aplicacion_Comercial_v1._0</RootNamespace>
+    <AssemblyName>Aplicacion_Comercial_v1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CADUSuario.cs" />
+    <Compile Include="DetalleCompra.cs" />
+    <Compile Include="DSAplicacionComercial.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSAplicacionComercial.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmBarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarras.Designer.cs">
+      <DependentUpon>frmBarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBodega.Designer.cs">
+      <DependentUpon>frmBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusquedaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusquedaProducto.Designer.cs">
+      <DependentUpon>frmBusquedaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambioClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambioClave.Designer.cs">
+      <DependentUpon>frmCambioClave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambioUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambioUsuario.Designer.cs">
+      <DependentUpon>frmCambioUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompras.Designer.cs">
+      <DependentUpon>frmCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmParametrosBodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParametrosBodega.Designer.cs">
+      <DependentUpon>frmParametrosBodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProveedores.Designer.cs">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frnBusquedaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frnBusquedaProveedor.Designer.cs">
+      <DependentUpon>frnBusquedaProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursos\Recursos\RegexUtilities.cs" />
+    <EmbeddedResource Include="frmBarras.resx">
+      <DependentUpon>frmBarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBodega.resx">
+      <DependentUpon>frmBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusquedaProducto.resx">
+      <DependentUpon>frmBusquedaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambioClave.resx">
+      <DependentUpon>frmCambioClave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambioUsuario.resx">
+      <DependentUpon>frmCambioUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompras.resx">
+      <DependentUpon>frmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParametrosBodega.resx">
+      <DependentUpon>frmParametrosBodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProveedores.resx">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frnBusquedaProveedor.resx">
+      <DependentUpon>frnBusquedaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DSAplicacionComercial.xsc">
+      <DependentUpon>DSAplicacionComercial.xsd</DependentUpon>
+    </None>
+    <None Include="DSAplicacionComercial.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSAplicacionComercial.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSAplicacionComercial.xss">
+      <DependentUpon>DSAplicacionComercial.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Recursos\RecursosAplicacionComercial.zip" />
+    <None Include="Recursos\Recursos\AplicacionComercial.bak" />
+    <None Include="Recursos\Recursos\Aplicación Comercial.pptx" />
+    <None Include="Recursos\Recursos\Arquitectura aplicación comercial.vsdx" />
+    <None Include="Recursos\Recursos\Diccionario de Datos - Aplicación Comercial.xlsx" />
+    <None Include="Recursos\Recursos\Dieños de Menus.docx" />
+    <None Include="Recursos\Recursos\Permisos Aplicación Comercial.xlsx" />
+    <None Include="Recursos\Recursos\RecursosAplicacionComercial.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Recursos\Aceptar2.png" />
+    <Content Include="Recursos\AcercaDE.png" />
+    <Content Include="Recursos\adicionar.png" />
+    <Content Include="Recursos\Anterior.png" />
+    <Content Include="Recursos\Ayuda.png" />
+    <Content Include="Recursos\Ayuda2.png" />
+    <Content Include="Recursos\Borrar.png" />
+    <Content Include="Recursos\Borrar2.png" />
+    <Content Include="Recursos\Buscar.png" />
+    <Content Include="Recursos\CambiarUsuario.png" />
+    <Content Include="Recursos\CambioClave.png" />
+    <Content Include="Recursos\CambioClave2.png" />
+    <Content Include="Recursos\Cancelar.png" />
+    <Content Include="Recursos\Cancelar2.png" />
+    <Content Include="Recursos\Clientes.png" />
+    <Content Include="Recursos\eliminar.png" />
+    <Content Include="Recursos\Factura.png" />
+    <Content Include="Recursos\Fondo.jpg" />
+    <Content Include="Recursos\Foto.JPG" />
+    <Content Include="Recursos\Guardar.png" />
+    <Content Include="Recursos\Ingreso.png" />
+    <Content Include="Recursos\IngresoSistema.png" />
+    <Content Include="Recursos\Mango.png" />
+    <Content Include="Recursos\Modificar.png" />
+    <Content Include="Recursos\Movimientos.png" />
+    <Content Include="Recursos\Nuevo.png" />
+    <Content Include="Recursos\Primero.png" />
+    <Content Include="Recursos\Productos.png" />
+    <Content Include="Recursos\provider.png" />
+    <Content Include="Recursos\Recursos\AplicacionComercial.sql" />
+    <Content Include="Recursos\Recursos\DER General.png" />
+    <Content Include="Recursos\Recursos\DER Movimientos.png" />
+    <Content Include="Recursos\Recursos\DER Productos.png" />
+    <Content Include="Recursos\Recursos\DER Usuarios.png" />
+    <Content Include="Recursos\Recursos\SP Inicializar Inventario.sql" />
+    <Content Include="Recursos\Reporte.png" />
+    <Content Include="Recursos\Reporte2.png" />
+    <Content Include="Recursos\rolex.jpg" />
+    <Content Include="Recursos\Salir.png" />
+    <Content Include="Recursos\Siguiente.png" />
+    <Content Include="Recursos\Ultimo.png" />
+    <Content Include="Recursos\usuarios.png" />
+    <None Include="Resources\provider.png" />
+    <None Include="Resources\Cancelar.png" />
+    <None Include="Resources\Aceptar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CADAplicacionComercial\CADAplicacionComercial.csproj">
+      <Project>{8a1e584e-f795-4119-a1da-ef25bdf5def9}</Project>
+      <Name>CADAplicacionComercial</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
